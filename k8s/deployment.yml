@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kalpant/frontend:m1
+          image: dadarao4141/hrms-frontend:v1
           ports:
             - containerPort: 80
 
@@ -69,7 +69,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kalpant/backend:m1
+          image: dadarao4141/hrms-backend:v1
           ports:
             - containerPort: 8080
           env:
